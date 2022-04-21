@@ -42,9 +42,9 @@ app.get("/api/test",(req,res) => {
 app.post("/api/test",(req,res) => {
 
     let person = req.body;
-    person.age += 20;
+    person.age += 30;
     res.send(person);
- 
+  
 });
 app.listen(3000,function(){
     console.log("Server start on port 3000");
